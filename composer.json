@@ -1,0 +1,27 @@
+{
+    "name": "flamecore/event-observer",
+    "description": "Watch events and react to them",
+    "homepage": "http://www.flamecore.org",
+    "keywords": ["events"],
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Christian Neff",
+            "email": "christian.neff@gmail.com",
+            "homepage": "http://www.secondtruth.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/FlameCore/EventObserver/issues",
+        "source": "https://github.com/FlameCore/EventObserver"
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FlameCore\\EventObserver\\": "lib/"
+        }
+    }
+}
