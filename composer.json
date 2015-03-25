@@ -2,7 +2,7 @@
     "name": "flamecore/event-observer",
     "description": "Watch events and react to them",
     "homepage": "http://www.flamecore.org",
-    "keywords": ["events"],
+    "keywords": ["events", "dispatcher", "mediator"],
     "license": "ISC",
     "authors": [
         {
@@ -14,7 +14,7 @@
     ],
     "support": {
         "issues": "https://github.com/FlameCore/EventObserver/issues",
-        "source": "https://github.com/FlameCore/EventObserver"
+        "wiki": "https://github.com/FlameCore/EventObserver/wiki"
     },
     "require": {
         "php": ">=5.4"
