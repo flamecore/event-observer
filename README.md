@@ -2,9 +2,12 @@ FlameCore EventObserver
 =======================
 
 [![Latest Stable](http://img.shields.io/packagist/v/flamecore/event-observer.svg)](https://packagist.org/packages/flamecore/event-observer)
-[![License](http://img.shields.io/packagist/l/flamecore/event-observer.svg)](https://packagist.org/packages/flamecore/event-observer)
+[![Code Climate](http://img.shields.io/codeclimate/github/FlameCore/EventObserver.svg)](https://codeclimate.com/github/FlameCore/EventObserver)
+[![License](http://img.shields.io/packagist/l/flamecore/event-observer.svg)](http://www.flamecore.org/projects/event-observer)
 
 This library allows you to watch events and react to them.
+
+Usage instructions and more information can be found [in our Wiki](https://github.com/FlameCore/EventObserver/wiki).
 
 
 Getting started
@@ -51,11 +54,11 @@ Create a file called `composer.json` in your project directory and put the follo
 
 [Install Composer](https://getcomposer.org/doc/00-intro.md#installation-nix) if you don't already have it present on your system:
 
-    curl -sS https://getcomposer.org/installer | php
+    $ curl -sS https://getcomposer.org/installer | php
 
 Use Composer to [download the vendor libraries](https://getcomposer.org/doc/00-intro.md#using-composer) and generate the vendor/autoload.php file:
 
-    php composer.phar install
+    $ php composer.phar install
 
 Include the vendor autoloader and use the classes:
 
@@ -77,6 +80,8 @@ Requirements
 
 Contributors
 ------------
+
+If you want to contribute, please see the [CONTRIBUTING](CONTRIBUTING.md) file first.
 
 Thanks to the contributors:
 
