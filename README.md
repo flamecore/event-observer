@@ -2,6 +2,7 @@ FlameCore EventObserver
 =======================
 
 [![Latest Stable](http://img.shields.io/packagist/v/flamecore/event-observer.svg)](https://packagist.org/packages/flamecore/event-observer)
+[![Build Status](https://img.shields.io/travis/FlameCore/EventObserver.svg)](https://travis-ci.org/FlameCore/EventObserver)
 [![Code Climate](http://img.shields.io/codeclimate/github/FlameCore/EventObserver.svg)](https://codeclimate.com/github/FlameCore/EventObserver)
 [![License](http://img.shields.io/packagist/l/flamecore/event-observer.svg)](http://www.flamecore.org/projects/event-observer)
 
@@ -10,7 +11,7 @@ This library allows you to watch events and react to them.
 Usage instructions and more information can be found [in our Wiki](https://github.com/FlameCore/EventObserver/wiki).
 
 
-Getting started
+Getting Started
 ---------------
 
 Create a new Responder object which holds the event listeners:
@@ -47,7 +48,7 @@ Create a file called `composer.json` in your project directory and put the follo
 ```
 {
     "require": {
-        "flamecore/event-observer": "~1.0"
+        "flamecore/event-observer": "1.0.*"
     }
 }
 ```
