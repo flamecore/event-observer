@@ -3,7 +3,8 @@ FlameCore EventObserver
 
 [![Latest Stable](http://img.shields.io/packagist/v/flamecore/event-observer.svg)](https://packagist.org/packages/flamecore/event-observer)
 [![Build Status](https://img.shields.io/travis/FlameCore/EventObserver.svg)](https://travis-ci.org/FlameCore/EventObserver)
-[![Code Climate](http://img.shields.io/codeclimate/github/FlameCore/EventObserver.svg)](https://codeclimate.com/github/FlameCore/EventObserver)
+[![Scrutinizer](http://img.shields.io/scrutinizer/g/FlameCore/EventObserver.svg)](https://scrutinizer-ci.com/g/FlameCore/EventObserver)
+[![Coverage](http://img.shields.io/codeclimate/coverage/github/FlameCore/EventObserver.svg)](https://codeclimate.com/github/FlameCore/EventObserver/coverage)
 [![License](http://img.shields.io/packagist/l/flamecore/event-observer.svg)](http://www.flamecore.org/projects/event-observer)
 
 This library allows you to watch events and react to them.
