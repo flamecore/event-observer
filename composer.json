@@ -32,5 +32,8 @@
         "psr-4": {
             "FlameCore\\EventObserver\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "test": "phpunit"
     }
 }
