@@ -15,6 +15,17 @@ Usage instructions and more information can be found [in our Wiki](https://githu
 Getting Started
 ---------------
 
+Include the vendor autoloader and use the classes:
+
+```php
+namespace Acme\MyApplication;
+
+use FlameCore\EventObserver\Observer;
+use FlameCore\EventObserver\Responder\Responder;
+
+require_once 'vendor/autoload.php';
+```
+
 Create a new Responder object which holds the event listeners:
 
 ```php
@@ -44,34 +55,13 @@ Installation
 
 ### Install via Composer
 
-Create a file called `composer.json` in your project directory and put the following into it:
-
-```
-{
-    "require": {
-        "flamecore/event-observer": "1.0.*"
-    }
-}
-```
-
-[Install Composer](https://getcomposer.org/doc/00-intro.md#installation-nix) if you don't already have it present on your system:
+[Install Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) if you don't already have it present on your system:
 
     $ curl -sS https://getcomposer.org/installer | php
 
-Use Composer to [download the vendor libraries](https://getcomposer.org/doc/00-intro.md#using-composer) and generate the vendor/autoload.php file:
+To install the library, run the following command and you will get the latest version:
 
-    $ php composer.phar install
-
-Include the vendor autoloader and use the classes:
-
-```php
-namespace Acme\MyApplication;
-
-use FlameCore\EventObserver\Observer;
-use FlameCore\EventObserver\Responder\Responder;
-
-require_once 'vendor/autoload.php';
-```
+    $ php composer.phar require flamecore/event-observer
 
 
 Requirements
